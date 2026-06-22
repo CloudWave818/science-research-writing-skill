@@ -1,5 +1,7 @@
 # Installation
 
+Install the entire `skills/science-research-writing` folder. Do not install only `SKILL.md`, because the skill uses files in `references/`.
+
 ## Install For Codex
 
 Copy the skill folder into your Codex skills directory:
@@ -16,6 +18,13 @@ cp -R ./skills/science-research-writing ~/.codex/skills/science-research-writing
 ```
 
 Restart Codex or start a new session so the skill list refreshes.
+
+## Install From A Downloaded Zip
+
+1. Download this repository as a zip from GitHub.
+2. Extract it.
+3. Copy the extracted `skills/science-research-writing` folder into your Codex skills directory.
+4. Restart Codex or start a new session.
 
 ## Verify
 
@@ -39,4 +48,10 @@ Expected output:
 
 ```text
 Skill is valid!
+```
+
+If `python` cannot find `yaml`, install PyYAML:
+
+```powershell
+python -m pip install PyYAML
 ```
