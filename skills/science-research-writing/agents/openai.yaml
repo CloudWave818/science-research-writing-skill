@@ -1,0 +1,7 @@
+interface:
+  display_name: "Science Research Writing"
+  short_description: "Coach STEMM papers with structure, language, and publication checklists."
+  default_prompt: "Use $science-research-writing to improve my research paper section for publication."
+
+policy:
+  allow_implicit_invocation: true
